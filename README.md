@@ -11,8 +11,8 @@ Evaluating Persistent Memory Range Indexes. PVLDB 13(4): 574-587 (2019)
 ### Use PMDK
 
 ```bash
-mkdir build & cd build
-cmake -DPMEM_BACKEND=PMDK ..
+mkdir build && cd build
+cmake -DCMAKE_BUILD_TYPE=Debug -DPMEM_BACKEND=PMDK ..
 ```
 
 ### Volatile only
